@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/shared/logo.svg" />
+
+  <title>Space Tourism Website</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="technology">
+  <header class="primary-header flex">
+    <div>
+      <img class="logo" src="assets/shared/logo.svg" alt="logo" />
+    </div>
+    <button class="mobile-nav-toggle" title="nav" aria-controls="primary-navigation" aria-expanded="false"></button>
+    <nav class="navbar">
+      <ul id="primary-navigation" data-visible="false" class="nav-menu fs-400">
+        <li>
+          <a class="ff-barlowC uppercase" href="index.html"><span>00</span> Home</a>
+        </li>
+        <li>
+          <a class="ff-barlowC uppercase" href="destination.html"><span>01</span> Destination</a>
+        </li>
+        <li>
+          <a class="ff-barlowC uppercase" href="crew.html"><span>02</span> Crew</a>
+        </li>
+        <li class="active">
+          <a class="ff-barlowC uppercase" href="technology.html"><span>03</span> Technology</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="grid-container-technology">
+    <h1 class="technology-title numbered-title uppercase ff-barlowC letter-spacing-1 text-white fs-500">
+      <span>03</span> Space launch 101
+    </h1>
+    <picture class="technology-pic technology-pic-portrait">
+      <img src="./assets/technology/image-launch-vehicle-landscape.jpg" alt="">
+    </picture>
+    <picture class="technology-pic technology-pic-landscape">
+      <img class="hide-landspace" src="./assets/technology/image-launch-vehicle-portrait.jpg" alt="">
+    </picture>
+    <div class="technology-tabs-container">
+      <button class="technology-tabs technology-tabs-active" title="technology-tabs" aria-controls="0">1</button>
+      <button class="technology-tabs" title="technology-tabs" aria-controls="1">2</button>
+      <button class="technology-tabs" title="technology-tabs" aria-controls="2">3</button>
+    </div>
+    <article class="technology-article text-light">
+      <h2 class="uppercase fs-300 ff-barlowC">
+        The terminology...
+        <p class="technology-name text-white fs-400 ff-bell">Launch vehicle</p>
+      </h2>
+      <p class="technology-description fs-400 ff-barlowC">
+        A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
+        payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
+        WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
+        it's quite an awe-inspiring sight on the launch pad!
+      </p>
+    </article>
+  </main>
+  <script type="module" src="script.js"></script> 
+  <script type="module" src="script-technology.js"></script>
+</body>
+</html>
