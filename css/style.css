@@ -488,6 +488,7 @@ body {
 }
 .tabs-pic img {
   width: 50%;
+  margin: auto;
   aspect-ratio: 1;
 }
 .tabs-container {
